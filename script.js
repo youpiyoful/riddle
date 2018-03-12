@@ -21,7 +21,7 @@
 // alert("Congratulation l'ami tu as réussi en moi de 5 coups... allé casse toi maintenant, ce jeu est débile")
 // alert("Bordel il t'a fallu plus de 5 coups pour deviner tu as vraiment du temps à perdre")
 // function test
-/*var numberGive = Number(prompt("Choisissez un nombre à faire deviner entre 1 et 100 :"));
+var numberGive = Number(prompt("Choisissez un nombre à faire deviner entre 1 et 100 :"));
 var numberSearch = Number(prompt("Entrez un nombre entre 1 et 100 :"))
 
 devinette(numberSearch, numberGive);
@@ -47,22 +47,22 @@ function devinette(_search, _give) {
     devinette(Number(prompt("révise la définition d'un nombre")), this.give);
   }
 }
-*/
 
 
-function addContent(_add, _id) {
-  this.add = _add;
-  this.id = _id;
-  document.getElementById(this.id).value = this.add;
-}
 
-/*var id = "text";
-var content = "hi";*/
-addContent("text", "text");
+// function addContent(_add, _id) {
+//   this.add = _add;
+//   this.id = _id;
+//   document.getElementById(this.id).value = this.add;
+// }
 
-function remoteElement() {
+// /*var id = "text";
+// var content = "hi";*/
+// addContent("text", "text");
 
-}
+// function remoteElement() {
+
+// }
 
 
 
